@@ -20,10 +20,9 @@ body {
 
 button {
   background: linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099cc, #b2e0ef);
-  border: black solid 1px;
   border-radius: 40%;
   transform: scale(1.5);
-  margin: 2rem;
+  margin: 1rem;
   font-family: Arial;
   position: relative;
   top: -30%;
