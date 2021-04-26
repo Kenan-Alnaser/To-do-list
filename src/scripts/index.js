@@ -13,6 +13,8 @@ const addToList = () => {
     deleteButton.innerHTML = "✗";
     newContainer.appendChild(doneButton);
     newContainer.appendChild(deleteButton);
+    doneButton.classList.add("listBtn");
+    deleteButton.classList.add("listBtn");
     newLi.appendChild(newContainer);
     const check = () => newLi.classList.toggle("completed");
     deleteButton.addEventListener("click", () => newLi.remove());
