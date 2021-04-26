@@ -6,6 +6,17 @@ const addToList = () => {
     newLi.appendChild(text);
     document.querySelector(".result").appendChild(newLi);
     document.querySelector("#userData").value = "";
+    const newContainer = document.createElement("div");
+    const doneButton = document.createElement("button");
+    const deleteButton = document.createElement("button");
+    doneButton.innerHTML = "✓";
+    deleteButton.innerHTML = "✗";
+    newContainer.appendChild(doneButton);
+    newContainer.appendChild(deleteButton);
+    newLi.appendChild(newContainer);
+    const check = () => newLi.classList.toggle("completed");
+    deleteButton.addEventListener("click", () => newLi.remove());
+    doneButton.addEventListener("click", check);
   } else {
     document.querySelector("#userData").placeholder = "Please Enter text first";
   }
