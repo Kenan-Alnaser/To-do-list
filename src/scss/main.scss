@@ -44,9 +44,18 @@ input {
   top: -30%;
   left: 7%;
 }
+.bullets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -25%;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 
 ul {
   position: relative;
-  top: 0%;
-  left: -25%;
+  list-style-type: "\1F578 -";
 }
