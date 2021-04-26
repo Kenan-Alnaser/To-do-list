@@ -33,7 +33,7 @@ button {
 .listBtn {
   background: transparent;
   position: relative;
-  top: -2rem;
+  top: -4rem;
   right: -100%;
 }
 
@@ -57,7 +57,7 @@ input {
 
 ul {
   position: relative;
-  list-style-type: "🕸-";
+  list-style-type: "🕸";
 }
 
 .completed {
