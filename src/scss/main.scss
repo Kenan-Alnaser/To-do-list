@@ -8,12 +8,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: red double 6px;
-  border-radius: 5%;
-  height: 80%;
-  width: 50%;
+  height: 96%;
+  width: 43%;
   left: 25%;
-  background-color: rgb(233, 233, 233);
+  background-image: url(../img/imgbin_paper-stock-photography-png.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 button {
@@ -31,7 +32,8 @@ button {
   margin: 2rem;
   font-family: Arial;
   position: relative;
-  top: -43%;
+  top: -30%;
+  left: 10%;
 }
 
 input {
@@ -40,5 +42,6 @@ input {
   transform: scale(1.5);
   margin: 2rem;
   position: relative;
-  top: -43%;
+  top: -30%;
+  left: 7%;
 }
