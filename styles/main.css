@@ -25,9 +25,16 @@ button {
   transform: scale(1.5);
   margin: 1rem;
   font-family: Arial;
+  position: absolute;
+  top: 17%;
+  right: 22%;
+}
+
+.listBtn {
+  background: transparent;
   position: relative;
-  top: -30%;
-  left: 10%;
+  top: -2rem;
+  right: -100%;
 }
 
 input {
@@ -35,17 +42,14 @@ input {
   border-radius: 5%;
   transform: scale(1.5);
   margin: 2rem;
-  position: relative;
-  top: -30%;
-  left: 7%;
+  position: absolute;
+  top: 16%;
+  left: 35%;
 }
 
 .bullets {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  left: -25%;
+  position: absolute;
+  left: 30%;
   flex-wrap: wrap;
   margin-top: auto;
   margin-bottom: auto;
@@ -54,6 +58,10 @@ input {
 ul {
   position: relative;
   list-style-type: "🕸-";
+}
+
+.completed {
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=main.css.map */
