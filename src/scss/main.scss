@@ -35,6 +35,7 @@ button {
   right: 22%;
 }
 .listBtn {
+  border: solid 1px black;
   background: transparent;
   position: relative;
   top: -4rem;
@@ -67,7 +68,6 @@ ul {
 
 li {
   font-size: 2.3rem;
-  font-weight: bold;
   font-family: "Shadows Into Light", cursive;
   color: blue;
   word-wrap: break-word;
