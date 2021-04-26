@@ -23,3 +23,11 @@ const addToList = () => {
     document.querySelector("#userData").placeholder = "Please Enter text first";
   }
 };
+
+const keyCheck = (e) => {
+  console.log(e);
+  if (e.key == "Enter") addToList();
+};
+
+const userInput = document.querySelector("#userData");
+userInput.addEventListener("keypress", keyCheck);
