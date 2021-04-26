@@ -64,4 +64,13 @@ ul {
   text-decoration: line-through;
 }
 
+li {
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: monospace;
+  color: blue;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 /*# sourceMappingURL=main.css.map */
